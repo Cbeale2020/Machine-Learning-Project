@@ -1,2 +1,2 @@
-# Machine-Learning-Project
-Final Project CWRU Boot Camp
+# Chronic Kidney Disease
+![Header-Image](Images/kidney-anatomy.jpg)
