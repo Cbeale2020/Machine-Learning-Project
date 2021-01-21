@@ -2,9 +2,9 @@
 ![Header-Image](Images/kidney-anatomy.jpg)
 
 ## ML Project Proposal
-Developer: Crisharon Beale
-Topic: Chronic Kidney Disease
-Create an analysis of existing data to make predictions on which patient may have chronic kidney disease, using a supervised methodology.
+* Developer: Crisharon Beale
+* Topic: Chronic Kidney Disease
+* Create an analysis of existing data to make predictions on which patient may have chronic kidney disease, using a supervised methodology.
 
 ## ETL
 * Python Pandas programming for cleanup
@@ -18,6 +18,11 @@ Create an analysis of existing data to make predictions on which patient may hav
 
 ## Data Visualization
 * Matplotlib
+![Header-Image](Images/blood_urea%vs%serum_creatinine.png)
+![Header-Image](Images/kidney-anatomy.jpg)
+![Header-Image](Images/kidney-anatomy.jpg)
+![Header-Image](Images/kidney-anatomy.jpg)
+![Header-Image](Images/kidney-anatomy.jpg)
 
 ## Important Links
 * GitHub https://github.com/Cbeale2020/Machine-Learning-Project 
