@@ -18,11 +18,17 @@
 
 ## Data Visualization
 * Matplotlib
-![Header-Image](Images/blood_urea%vs%serum_creatinine.png)
-![Header-Image](Images/kidney-anatomy.jpg)
-![Header-Image](Images/kidney-anatomy.jpg)
-![Header-Image](Images/kidney-anatomy.jpg)
-![Header-Image](Images/kidney-anatomy.jpg)
+![Header-Image](Images/correlation_of_features.png)
+
+![Header-Image](Images/blood_urea%20vs%20serum_creatinine.png)
+
+![Header-Image](hemoglobin%20vs%20classification.png)
+
+![Header-Image](Images/red_blood_cell_count%20vs%20packed_cell_volume.png)
+
+![Header-Image](Images/specific_gravity%20vs%20packed_cell_volume.png)
+
+![Header-Image](Images/sugar%20vs%20blood_glucose_random.png)
 
 ## Important Links
 * GitHub https://github.com/Cbeale2020/Machine-Learning-Project 
