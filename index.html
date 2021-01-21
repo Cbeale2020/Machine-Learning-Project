@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Chronic Kidney Disease</title>
+
+    <!-- Boostrap Stylesheet -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="screen">
+
+    <!-- Our own CSS stylesheet -->
+    <link rel="stylesheet" href="assets/css/styles.css" media="screen">
+
+  </head>
+
+  <body>
+    <!-- Start of navbar -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid navbar-custom">
+
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right navbar-right-custom">
+              <li class="dropdown">
+              </li>
+             <center><li><a href="comparison.html">Visualizations</a></li></center>
+              <center><li><a href="data.html">Data Links</a></li></center>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div>
+      </div><!-- /.container-fluid -->
+    </nav>
+    <!-- End of navbar -->
+
+    <!-- Start of container -->
+    <div class="container">
+      <section class="row">
+        <div class="col-md-8">
+          <article class="description-content">
+            <h1 class="description-header">Do you have Chronic Kidney Disease ?</h1>
+            <hr class="description-hr"/>
+            
+            <p>The purpose of this project was to analyze existing data to make classifications on which patient may have chronic kidney disease, using a supervised methodology.</p>
+            <p>I used Python Pandas programming for cleanup, SQL Database : Postgres for Database Management
+              AWS. Front End deveolpement
+              HTML
+              CSS
+              Bootstrap <br>         
+              
+              Data Visualization
+              Matplotlib <br> <p>
+              Methods: Supervised (model.predict()), Scikit Learn Library.
+              Evaluation Model DescisionTreeClassifier.
+              Datasource: Kaggle (age - age,bp - blood pressure,sg - specific gravity,al - albumin,su - sugar,rbc - red blood cells,pc - pus cell,pcc - pus cell clumps,ba - bacteria,bgr - blood glucose random,bu - blood urea,sc - serum creatinine, sod - sodium,pot - potassium,hemo - hemoglobin,pcv - packed cell volume,wc - white blood cell count,rc - red blood cell count,htn - hypertension,dm - diabetes mellitus,cad - coronary artery disease,appet - appetite,pe - pedal edema,ane - anemia,class - class)</p>
+              </p>
+            <img src="Images/correlation_of_features.png"/>
+          </article>
+        </div>
+        <div class="col-md-4">
+
+          <!-- Start of Visualizations imageNav Area -->
+          <section id="imageNav-area">
+            <div class="imageNav-content">
+              <h2 class="imageNav-header">Watch the video below</h2>
+              <hr />
+              <div>
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/lKgfyCtikms" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                              
+              </div>
+            </div>
+          </section> 
+          <!-- End of the Visualizations imageNav Area -->
+
+        </div>
+      </section>
+    </div>
+    <!-- End of container -->
+
+    <!-- Start of footer -->
+    <footer class="footer navbar-fixed-bottom">
+      <div class="two-toned-footer-color"></div>
+      <p class="text-muted text-muted-footer text-center">
+        Crisharon Beale 2021 Final Project
+      </p>
+    </footer>
+    <!-- End of footer -->
+
+    <!-- jQuery CDN -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </body>
+
+</html>

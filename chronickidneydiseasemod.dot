@@ -1,0 +1,13 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="albumin <= 0.5\ngini = 0.421\nsamples = 126\nvalue = [88, 38]", fillcolor="#f0b78e"] ;
+1 [label="hypertension <= 0.5\ngini = 0.022\nsamples = 89\nvalue = [88, 1]", fillcolor="#e5823b"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="gini = 0.0\nsamples = 88\nvalue = [88, 0]", fillcolor="#e58139"] ;
+1 -> 2 ;
+3 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]", fillcolor="#399de5"] ;
+1 -> 3 ;
+4 [label="gini = 0.0\nsamples = 37\nvalue = [0, 37]", fillcolor="#399de5"] ;
+0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
